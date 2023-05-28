@@ -197,3 +197,6 @@ include $I3/includes/feh.conf
 
 # STYLES
 include $I3/includes/styles.conf
+
+# KEYBINDS
+include $I3/includes/keybinds.conf
