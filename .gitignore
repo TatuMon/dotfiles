@@ -1,0 +1,38 @@
+# Ignore all
+*
+
+########
+# HOME #
+########
+# Except these dirs...
+!.config/
+!.config/*
+
+!.tmux/
+!.tmux/*
+
+# and these files...
+!.gitignore
+!.tmux.conf
+!.zshrc
+!.bashrc
+!.newsboat/urls
+
+##########
+# CONFIG #
+##########
+# and ignore all files from .config/
+.config/*
+
+# except these dirs...
+!kitty/
+!kitty/*
+
+!nvim/
+!nvim/*
+
+!ranger/
+!ranger/*
+
+# and these files
+!starship.toml
